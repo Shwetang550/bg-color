@@ -1,9 +1,18 @@
-import React from 'react';
+import React, { useState } from 'react';
 
 const App = () => {
+  let [bgColor, setBgColor] = useState("white");
+
+  const handleChange = (i) => {
+    bgColor = i.target.value;
+    setBgColor(bgColor);
+   };
+
   return ( 
     <>
-      <h1>Hello World</h1>
+      <div style={{ backgroundColor: bgColor }}>
+        <input onChange={handleChange} type="text" />
+      </div>
     </>
    );
 }
