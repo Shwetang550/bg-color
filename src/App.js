@@ -16,7 +16,7 @@ const App = () => {
          <div className="card-body">
            <h2 className="card-title">{bgColor}</h2>
             <p className="card-text" style={{marginBottom: "0"}}>Change the background color here :)</p>
-           <input placeholder="Enter any color-name, rgba-code, anything" onChange={handleChange} type="text" value={bgColor} />
+            <input placeholder="Enter any color" onChange={handleChange} type="text" value={bgColor} />
          </div>
        </div>
       </main>
