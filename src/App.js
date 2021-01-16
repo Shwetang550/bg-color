@@ -17,7 +17,7 @@ const App = () => {
            <h2 className="card-title">{bgColor}</h2>
             <p className="card-text" style={{marginBottom: "0"}}>Change the background color here :)</p>
             <p className="card-text">(color-name, rgba-code, anything)</p>
-           <input onChange={handleChange} type="text" />
+           <input onChange={handleChange} type="text" value={bgColor} />
          </div>
        </div>
       </main>
