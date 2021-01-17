@@ -18,7 +18,7 @@ const App = () => {
             <p className="card-text" style={{ marginBottom: "0" }}>Change the background color here :)</p>
             <form>
               <input placeholder="Enter any color" onChange={handleChange} type="text" value={bgColor} />
-              <button className="btn btn-primary btn-sm">Submit</button>
+              <button className="btn btn-primary btn-sm" style={{marginTop: "0.5rem", display: "block"}}>Submit</button>
             </form>
          </div>
        </div>
